@@ -63,7 +63,7 @@ main {
   height: 100%;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 850px) {
   .navbar {
     height: 100vh;
   }
