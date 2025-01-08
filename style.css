@@ -41,7 +41,7 @@ footer {
 
 .name3 {
   font-family: "Playfair Display", serif !important;
-  font-size: 70px !important;
+  font-size: min(50px, 12vw) !important;
   font-weight: 700 !important;
   letter-spacing: 1px !important;
 }
@@ -75,9 +75,9 @@ main {
     display: flex;
     flex-direction: column;
   }
-  .name3 {
+  /* .name3 {
     font-size: 14vw !important;
-  }
+  } */
   .top3 {
     right: 8px !important;
     bottom: 8px !important;
@@ -135,7 +135,6 @@ main {
   font-size: 1rem !important;
   color: #666 !important;
   line-height: 1.6 !important;
-  font-weight: lighter !important;
 }
 
 /* Ensure one column layout for small and larger screens */
